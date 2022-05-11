@@ -1,0 +1,60 @@
+/* ===========================
+     Navbar Sectiion
+=========================== */
+.navbar-section {
+    background-image: linear-gradient(to bottom, #ffffff 0%, #59a9db 100%); 
+    border-radius: 10px;
+ 
+    
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #000000;
+    font-weight: 700;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    font-weight: 700;
+    
+}
+
+
+
+
+/* ===========================
+     Home Sectiion
+=========================== */
+.carousel-bg {
+    background-color: #8dc6e4;
+    border-radius: 15px;
+    height: 500px;
+    border: 0px;
+    margin-top: 20px;
+}
+.carousel-item,
+.row {
+    padding: 25px 35px;
+
+}
+
+.carousel-bg img {
+    max-width: 400px;
+    padding: 25px;
+
+}
+
+.buy-now {
+    background-image: linear-gradient(to bottom, #ff6358 0%, #E62E04 100%); 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 9px 25px;
+
+}
+
+.price{
+    color:  #E62E04;
+}
