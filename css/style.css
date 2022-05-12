@@ -2,21 +2,20 @@
      Navbar Sectiion
 =========================== */
 .navbar-section {
-    background-image: linear-gradient(to bottom, #ffffff 0%, #59a9db 100%); 
+    background-image: linear-gradient(to bottom, #e57070 0%, #d73611 100%); 
     border-radius: 10px;
- 
-    
+    font-family: 'Koulen', cursive;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-    color: #000000;
-    font-weight: 700;
+    color:#ffffff;
+    font-weight: 500;
     
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #000000;
-    font-weight: 700;
+    color: #ffffff;
+    font-weight: 500;
     
 }
 
@@ -27,11 +26,16 @@
      Home Sectiion
 =========================== */
 .carousel-bg {
-    background-color: #8dc6e4;
+    background-image: linear-gradient(to bottom, #e57070 0%, #d22700 100%); 
     border-radius: 15px;
-    height: 500px;
+    height: 450px;
     border: 0px;
     margin-top: 20px;
+    color: #ffffff;
+}
+.carousel-item img{
+    height: 300px;
+    width: 180px;
 }
 .carousel-item,
 .row {
@@ -56,5 +60,7 @@
 }
 
 .price{
-    color:  #E62E04;
+    color:  #ffffff;
+
+    
 }
