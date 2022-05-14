@@ -2,9 +2,10 @@
      Navbar Sectiion
 =========================== */
 .navbar-section {
-    background-image: linear-gradient(to bottom, #e57070  0%, #ffffff 100%); 
+    background-image: linear-gradient(to bottom, #FCEAE8  0%, #ffffff 100%); 
     border-radius: 5px;
     font-family: 'Koulen', cursive;
+    margin-top: 0px;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -21,19 +22,23 @@
 .navbar>.container-fluid{
     margin-left: 162px;
 }
-
+.dropdown-menu{
+    background-image: linear-gradient(to bottom, #FCEAE8  0%, #ffffff 100%);
+    border-radius: 10px;
+    align-items: center;
+}
 
 
 /* ===========================
      Home Sectiion
 =========================== */
 .carousel-bg {
-    background-image: linear-gradient(to bottom, #e57070 0%, #d22700 50%, #e57070 100%); 
+    background-image: linear-gradient(to bottom, rgb(255, 244, 244) 0%,  #ffffff 100%); 
     border-radius: 7px;
     height: 55%;
     border: 0px;
     margin-top: 90px;
-    color: #ffffff;
+    color: #000000;
 }
 .carousel-item img{
     width: 180px;
@@ -58,15 +63,25 @@
     border-radius: 8px;
     cursor: pointer;
     padding: 9px 25px;
+
   
 
 }
-.buy-now button{
+
+
+a{
+    color: white;
     text-decoration: none;
+    font-size: 1.2rem;
 }
+a:hover {
+    color: rgb(102, 97, 97);
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
 
 .price{
-    color:  #ffffff;
+    color:  #ff0000;
 
     
 }
@@ -86,26 +101,48 @@
 .cat1,
 .cat2,
 .cat3 {
-
+    border-radius: 50%;
     padding: 10px 25px;
 }
 
 .cat1 {
-    background-image: linear-gradient(to right, #e57070 0%, #d22700 50%, #e57070 100%);
-    border-radius: 2%;
+    background-image: linear-gradient(to right, #e3e641 0%, #ffc800 50%, #e3e641 100%);
+    border: none;
+    border-radius: 50%;
     color: white;
     
 }
 
 .cat2 {
-    background-image: linear-gradient(to bottom, #5359d8 0%, #000bd2 50%, #5359d8 100%);
+    background-image: linear-gradient(to bottom, #5359d8 0%, #6367a7 50%, #5359d8 100%);
     border-radius: 2%;
     color: white;
 }
 
 .cat3 {
-    background-image: linear-gradient(to right, #e57070 0%, #d22700 50%, #e57070 100%);
+    background-image: linear-gradient(to right, #e3e641 0%, #ffc800 50%, #e3e641 100%);
     border-radius: 2%;
     color: white;
 }
 
+/* ============================
+
+      Product Card
+
+========================= */
+.item{
+    margin-top: 60px;
+}
+
+.item .card{
+    border: none;
+    box-shadow: 5px 5px 20px 5px #a9a9a9;
+    border-radius: 8px;
+}
+.item .card img{
+    height: 275px;
+    padding: 13px;
+}
+.card button{
+    
+}
