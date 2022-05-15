@@ -2,20 +2,20 @@
      Navbar Sectiion
 =========================== */
 .navbar-section {
-    background-image: linear-gradient(to bottom, #FCEAE8  0%, #ffffff 100%); 
+    background-image: linear-gradient(to bottom, #000000  0%, #000000 100%); 
     border-radius: 5px;
     font-family: 'Koulen', cursive;
     margin-top: 0px;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-    color:#000000;
+    color:#ffffff;
     font-weight: 500;
     
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #000000;
+    color: #ffffff;
     font-weight: 500;
     
 }
@@ -23,21 +23,48 @@
     margin-left: 162px;
 }
 .dropdown-menu{
-    background-image: linear-gradient(to bottom, #FCEAE8  0%, #ffffff 100%);
+    background-image: linear-gradient(to bottom, #000000  0%, #000000 100%);
     border-radius: 10px;
     align-items: center;
+    color: white;
+}
+
+element.style {
+    color: white;
+}
+a.dropdown-item{
+    color: white;
+}
+
+element.style {
+    color: white;
+}
+a.dropdown-item:hover{
+    background-color: white;
+    color: #000000;
+    border-radius: 25px;
 }
 
 
+.navbar-light .navbar-nav .nav-link.active:hover{
+    background-color: white;
+    color: #000000;
+    border-radius: 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: white;
+    color: #000000;
+    border-radius: 25px;
+}
 /* ===========================
      Home Sectiion
 =========================== */
 .carousel-bg {
-    background-image: linear-gradient(to bottom, rgb(255, 244, 244) 0%,  #ffffff 100%); 
-    border-radius: 7px;
+    background-image: linear-gradient(to bottom, #FFD700 0%,  #FFD700 100%); 
+    border-radius: 15px;
     height: 55%;
     border: 0px;
-    margin-top: 90px;
+    margin-top: 150px;
     color: #000000;
 }
 .carousel-item img{
